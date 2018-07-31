@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="main.js"></script>
@@ -26,13 +30,19 @@
 
         <div class="row">
             <div id="board-size-input">
-               
-
+                <h4>Choose your board size</h4>
+                <button id="sm" class="start-button">small</button>
+                <button id="md" class="start-button">medium</button>
+                <button id="lg" class="start-button">large</button>
+                <h4>Or enter your own board size</h4>
+                <input type="number" id="numRows">
+                <input type="number" id="numCols">
+                <button id="start" class="start-button">start</button>
             </div>
         </div>
 
         <div class="row">
-            <div id="gameboard"></div>
+            <div id="game-board"> game go hur</div>
         </div>
 
 

@@ -1,0 +1,12 @@
+.rowz {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  /* display: inline-block; */
+  border: black solid 2px;
+}
+
+.columnz {
+  width: 30px;
+    display: inline-block;
+}
